@@ -24,6 +24,9 @@ This project is a responsive Four Card Feature Section built based on a Frontend
 
 
 ### Built with
+- **HTML5** – Page structure and semantic markup  
+- **CSS3** – Styling and layout  
+- **Flexbox** – Responsive and flexible layouts
 
 ## Author
 - Aisha Adeyemo
