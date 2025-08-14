@@ -21,7 +21,7 @@ This project is a responsive Four Card Feature Section built based on a Frontend
 ![Preview](image.png)
 
 ### Live Site Url
-
+https://echo-script0.github.io/Huddle-landing-page/
 
 ### Built with
 - **HTML5** – Page structure and semantic markup  
