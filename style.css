@@ -1,0 +1,175 @@
+body {background-image: url('bg-desktop.svg');
+      background-position: 0px -30px;
+      background-repeat: no-repeat;
+      background-color: hsl(257, 40%, 49%);
+      display: flex;
+      flex-direction: row;
+      height: 100vh; /* Full viewport height */
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove default padding */
+      width: 100vw;
+      overflow: hidden;}
+
+.left-part {display: flex;
+            flex-direction:column;}
+
+.left-part .huddle-icon {padding-left: 90px;
+                         padding-top: 40px;}
+
+.left-part .huddle-icon img {height: 45px;}
+
+.left-part .huddle-image img {padding-left: 90px;
+                              padding-top: 60px;
+                              height: 460px;
+                              width: 680px;}
+
+.right-part {display: flex; flex-direction: column; }
+
+.right-part-top {display: flex;
+             flex-direction: column;
+             justify-content: center; 
+             height: 100vh;
+             padding-top: 80px;}
+
+.right-part .heading {color: white;
+                      font-size: 37px;
+                      font-family: 'Poppins', sans-serif;
+                      font-weight: 550;
+                      padding-left: 50px;}
+
+.right-part .wordings {color: rgb(238, 238, 238);
+                       font-size: 16px;
+                       font-family: 'Open Sans', sans-serif;
+                       font-weight: 400;
+                       padding-left: 50px;
+                       padding-top: 15px;
+                       line-height: 23px;}
+
+.button {height: 50px;
+         width: 170px;
+         color: hsl(257, 40%, 49%);
+         font-size: 16px;
+         font-family: 'Poppins', sans-serif;
+         margin-left: 50px;
+         margin-top: 30px;
+         border-radius: 50px;
+         border-color: white;
+         box-shadow: 0 8px 17px -8px rgba(0, 0, 0, 0.8);
+         cursor: pointer;}
+
+.button:hover {background-color: hsl(300, 69%, 71%);
+               color: white;
+               border-color: hsl(257, 40%, 49%);}
+
+.right-part-bottom {display: flex;
+                    flex-direction: row;
+                    margin-bottom: 30px;
+                    margin-left: 350px;}
+
+.social-icon {display: inline-flex;          /* center the icon inside */
+              align-items: center;
+              justify-content: center;
+              width: 40px;                   /* circle size */
+              height: 40px;
+              border-radius: 50%;            /* makes it round */
+              border: 1px solid white;       /* the circle border */
+              color: white;                  /* icon color */
+              font-size: 18px;                /* icon size */
+              margin: 0 5px;                  /* space between circles */
+              text-decoration: none;}       /* remove link underline */
+
+.social-icon:hover {background-color: hsl(257, 40%, 49%);    
+                    color: hsl(300, 69%, 71%);
+                    border-color: hsl(300, 69%, 71%);}
+
+      
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    background-image: url('bg-mobile.svg');
+    
+    background-size: cover;
+    height: auto;
+    width: fit-content;
+    padding: 20px;
+    overflow: auto;}
+
+  .left-part {
+    
+    padding: 0;
+  }
+
+  .left-part .huddle-icon {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .left-part .huddle-icon img {
+    height: 35px;
+  }
+
+  .left-part .huddle-image img {
+    padding: 0;
+    height: auto;
+    width: 90%;
+    max-width: 400px;
+  }
+
+  .right-part { 
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    display: flex;
+    width: 100%;
+  }
+
+  .right-part-top {
+    padding-top: 40px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;}
+
+  .right-part .heading {
+    font-size: 24px;
+    padding: 0;
+    text-align: center;
+  }
+
+  .right-part .wordings {
+    font-size: 17px;
+    padding: 15px 0 0 0;
+    line-height: 24px;
+    text-align: center;
+    max-width: 90%;
+  }
+
+  .button {
+    margin: 30px 0 0 0;
+    width: 200px;
+    justify-content: center;
+   align-items: center;
+   text-align: center;
+   display: flex;}
+
+  .right-part-bottom {
+    justify-content: center;
+    margin: 60px 0 0 0;
+
+  }
+
+  .social-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+            
+                        
